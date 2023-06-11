@@ -1,0 +1,697 @@
+Hello craateFileupdateDateDecessRequestMember
+UPDATE user SET deathRequest = '2023-03-20T00:00:00.000Z' WHERE (memberId = '00009') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-03-10T00:00:00.000Z', deathRequest = '2023-03-20T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '00009');
+--
+UPDATE user SET deathRequest = '2023-03-13T00:00:00.000Z' WHERE (memberId = '00060') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-03-05T00:00:00.000Z', deathRequest = '2023-03-13T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '00060');
+--
+UPDATE user SET deathRequest = '2023-03-15T00:00:00.000Z' WHERE (memberId = '00104') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-02-08T00:00:00.000Z', deathRequest = '2023-03-15T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '00104');
+--
+UPDATE user SET deathRequest = '2023-03-20T00:00:00.000Z' WHERE (memberId = '00159') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2022-10-02T00:00:00.000Z', deathRequest = '2023-03-20T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '00159');
+--
+UPDATE user SET deathRequest = '2023-01-12T00:00:00.000Z' WHERE (memberId = '00316') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-05T00:00:00.000Z', deathRequest = '2023-01-12T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '00316');
+--
+UPDATE user SET deathRequest = '2023-01-10T00:00:00.000Z' WHERE (memberId = '00547') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2022-12-09T00:00:00.000Z', deathRequest = '2023-01-10T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '00547');
+--
+UPDATE user SET deathRequest = '2023-02-02T00:00:00.000Z' WHERE (memberId = '00578') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-24T00:00:00.000Z', deathRequest = '2023-02-02T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '00578');
+--
+UPDATE user SET deathRequest = '2023-01-30T00:00:00.000Z' WHERE (memberId = '00909') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-15T00:00:00.000Z', deathRequest = '2023-01-30T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '00909');
+--
+UPDATE user SET deathRequest = '2023-02-28T00:00:00.000Z' WHERE (memberId = '00937') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-02-18T00:00:00.000Z', deathRequest = '2023-02-28T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '00937');
+--
+UPDATE user SET deathRequest = '2023-01-30T00:00:00.000Z' WHERE (memberId = '01000') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-13T00:00:00.000Z', deathRequest = '2023-01-30T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '01000');
+--
+UPDATE user SET deathRequest = '2023-01-18T00:00:00.000Z' WHERE (memberId = '01167') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2022-12-25T00:00:00.000Z', deathRequest = '2023-01-18T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '01167');
+--
+UPDATE user SET deathRequest = '2023-02-02T00:00:00.000Z' WHERE (memberId = '01371') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2022-12-23T00:00:00.000Z', deathRequest = '2023-02-02T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '01371');
+--
+UPDATE user SET deathRequest = '2023-02-13T00:00:00.000Z' WHERE (memberId = '01491') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-22T00:00:00.000Z', deathRequest = '2023-02-13T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '01491');
+--
+UPDATE user SET deathRequest = '2023-01-10T00:00:00.000Z' WHERE (memberId = '01507') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2022-12-21T00:00:00.000Z', deathRequest = '2023-01-10T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '01507');
+--
+UPDATE user SET deathRequest = '2023-04-18T00:00:00.000Z' WHERE (memberId = '01547') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-03-25T00:00:00.000Z', deathRequest = '2023-04-18T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '01547');
+--
+UPDATE user SET deathRequest = '2023-03-13T00:00:00.000Z' WHERE (memberId = '01867') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-02-20T00:00:00.000Z', deathRequest = '2023-03-13T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '01867');
+--
+UPDATE user SET deathRequest = '2023-03-07T00:00:00.000Z' WHERE (memberId = '01949') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-02-23T00:00:00.000Z', deathRequest = '2023-03-07T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '01949');
+--
+UPDATE user SET deathRequest = '2023-02-02T00:00:00.000Z' WHERE (memberId = '02066') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2022-12-24T00:00:00.000Z', deathRequest = '2023-02-02T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '02066');
+--
+UPDATE user SET deathRequest = '2023-02-21T00:00:00.000Z' WHERE (memberId = '02363') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-02-10T00:00:00.000Z', deathRequest = '2023-02-21T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '02363');
+--
+UPDATE user SET deathRequest = '2023-01-12T00:00:00.000Z' WHERE (memberId = '02370') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2022-12-26T00:00:00.000Z', deathRequest = '2023-01-12T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '02370');
+--
+UPDATE user SET deathRequest = '2023-03-20T00:00:00.000Z' WHERE (memberId = '02454') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-03-08T00:00:00.000Z', deathRequest = '2023-03-20T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '02454');
+--
+UPDATE user SET deathRequest = '2023-01-30T00:00:00.000Z' WHERE (memberId = '02607') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-18T00:00:00.000Z', deathRequest = '2023-01-30T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '02607');
+--
+UPDATE user SET deathRequest = '2023-01-31T00:00:00.000Z' WHERE (memberId = '02611') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-22T00:00:00.000Z', deathRequest = '2023-01-31T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '02611');
+--
+UPDATE user SET deathRequest = '2023-01-23T00:00:00.000Z' WHERE (memberId = '02617') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-13T00:00:00.000Z', deathRequest = '2023-01-23T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '02617');
+--
+UPDATE user SET deathRequest = '2023-02-06T00:00:00.000Z' WHERE (memberId = '02781') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-25T00:00:00.000Z', deathRequest = '2023-02-06T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '02781');
+--
+UPDATE user SET deathRequest = '2023-01-19T00:00:00.000Z' WHERE (memberId = '02969') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-08T00:00:00.000Z', deathRequest = '2023-01-19T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '02969');
+--
+UPDATE user SET deathRequest = '2023-04-20T00:00:00.000Z' WHERE (memberId = '03451') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-04-09T00:00:00.000Z', deathRequest = '2023-04-20T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '03451');
+--
+UPDATE user SET deathRequest = '2023-02-08T00:00:00.000Z' WHERE (memberId = '03541') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-02-01T00:00:00.000Z', deathRequest = '2023-02-08T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '03541');
+--
+UPDATE user SET deathRequest = '2023-01-18T00:00:00.000Z' WHERE (memberId = '03582') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2022-12-30T00:00:00.000Z', deathRequest = '2023-01-18T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '03582');
+--
+UPDATE user SET deathRequest = '2023-02-20T00:00:00.000Z' WHERE (memberId = '04034') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-02-07T00:00:00.000Z', deathRequest = '2023-02-20T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '04034');
+--
+UPDATE user SET deathRequest = '2023-02-20T00:00:00.000Z' WHERE (memberId = '04048') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-02-03T00:00:00.000Z', deathRequest = '2023-02-20T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '04048');
+--
+UPDATE user SET deathRequest = '2023-04-19T00:00:00.000Z' WHERE (memberId = '05027') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-03-22T00:00:00.000Z', deathRequest = '2023-04-19T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '05027');
+--
+UPDATE user SET deathRequest = '2023-01-10T00:00:00.000Z' WHERE (memberId = '05457') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2022-12-11T00:00:00.000Z', deathRequest = '2023-01-10T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '05457');
+--
+UPDATE user SET deathRequest = '2023-04-20T00:00:00.000Z' WHERE (memberId = '05726') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-04-18T00:00:00.000Z', deathRequest = '2023-04-20T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '05726');
+--
+UPDATE user SET deathRequest = '2023-04-18T00:00:00.000Z' WHERE (memberId = '05744') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-03-23T00:00:00.000Z', deathRequest = '2023-04-18T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '05744');
+--
+UPDATE user SET deathRequest = '2023-03-16T00:00:00.000Z' WHERE (memberId = '05750') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-02-23T00:00:00.000Z', deathRequest = '2023-03-16T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '05750');
+--
+UPDATE user SET deathRequest = '2023-03-15T00:00:00.000Z' WHERE (memberId = '06701') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-02-24T00:00:00.000Z', deathRequest = '2023-03-15T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '06701');
+--
+UPDATE user SET deathRequest = '2023-01-30T00:00:00.000Z' WHERE (memberId = '06781') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-17T00:00:00.000Z', deathRequest = '2023-01-30T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '06781');
+--
+UPDATE user SET deathRequest = '2023-02-28T00:00:00.000Z' WHERE (memberId = '06827') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-02-19T00:00:00.000Z', deathRequest = '2023-02-28T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '06827');
+--
+UPDATE user SET deathRequest = '2023-02-10T00:00:00.000Z' WHERE (memberId = '07060') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-22T00:00:00.000Z', deathRequest = '2023-02-10T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '07060');
+--
+UPDATE user SET deathRequest = '2023-01-30T00:00:00.000Z' WHERE (memberId = '07210') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-16T00:00:00.000Z', deathRequest = '2023-01-30T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '07210');
+--
+UPDATE user SET deathRequest = '2023-04-19T00:00:00.000Z' WHERE (memberId = '07299') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-03-25T00:00:00.000Z', deathRequest = '2023-04-19T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '07299');
+--
+UPDATE user SET deathRequest = '2023-02-28T00:00:00.000Z' WHERE (memberId = '07466') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-02-10T00:00:00.000Z', deathRequest = '2023-02-28T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '07466');
+--
+UPDATE user SET deathRequest = '2023-04-19T00:00:00.000Z' WHERE (memberId = '07516') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-03-31T00:00:00.000Z', deathRequest = '2023-04-19T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '07516');
+--
+UPDATE user SET deathRequest = '2023-04-10T00:00:00.000Z' WHERE (memberId = '07836') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-03-20T00:00:00.000Z', deathRequest = '2023-04-10T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '07836');
+--
+UPDATE user SET deathRequest = '2023-01-10T00:00:00.000Z' WHERE (memberId = '08144') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2022-12-16T00:00:00.000Z', deathRequest = '2023-01-10T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '08144');
+--
+UPDATE user SET deathRequest = '2023-03-29T00:00:00.000Z' WHERE (memberId = '08296') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-03-19T00:00:00.000Z', deathRequest = '2023-03-29T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '08296');
+--
+UPDATE user SET deathRequest = '2023-03-16T00:00:00.000Z' WHERE (memberId = '08337') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-03-01T00:00:00.000Z', deathRequest = '2023-03-16T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '08337');
+--
+UPDATE user SET deathRequest = '2023-02-24T00:00:00.000Z' WHERE (memberId = '08503') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-02-07T00:00:00.000Z', deathRequest = '2023-02-24T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '08503');
+--
+UPDATE user SET deathRequest = '2023-04-18T00:00:00.000Z' WHERE (memberId = '08557') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-04-05T00:00:00.000Z', deathRequest = '2023-04-18T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '08557');
+--
+UPDATE user SET deathRequest = '2023-02-08T00:00:00.000Z' WHERE (memberId = '08746') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-27T00:00:00.000Z', deathRequest = '2023-02-08T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '08746');
+--
+UPDATE user SET deathRequest = '2023-01-16T00:00:00.000Z' WHERE (memberId = '08797') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2022-12-29T00:00:00.000Z', deathRequest = '2023-01-16T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '08797');
+--
+UPDATE user SET deathRequest = '2023-03-27T00:00:00.000Z' WHERE (memberId = '08805') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-03-08T00:00:00.000Z', deathRequest = '2023-03-27T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '08805');
+--
+UPDATE user SET deathRequest = '2023-03-07T00:00:00.000Z' WHERE (memberId = '09131') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-02-16T00:00:00.000Z', deathRequest = '2023-03-07T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '09131');
+--
+UPDATE user SET deathRequest = '2023-02-28T00:00:00.000Z' WHERE (memberId = '09253') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-02-15T00:00:00.000Z', deathRequest = '2023-02-28T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '09253');
+--
+UPDATE user SET deathRequest = '2023-04-01T00:00:00.000Z' WHERE (memberId = '09511') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-03-12T00:00:00.000Z', deathRequest = '2023-04-01T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '09511');
+--
+UPDATE user SET deathRequest = '2023-01-16T00:00:00.000Z' WHERE (memberId = '09514') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2022-12-29T00:00:00.000Z', deathRequest = '2023-01-16T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '09514');
+--
+UPDATE user SET deathRequest = '2023-01-31T00:00:00.000Z' WHERE (memberId = '09805') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-07T00:00:00.000Z', deathRequest = '2023-01-31T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '09805');
+--
+UPDATE user SET deathRequest = '2023-02-21T00:00:00.000Z' WHERE (memberId = '09876') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-02-11T00:00:00.000Z', deathRequest = '2023-02-21T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '09876');
+--
+UPDATE user SET deathRequest = '2023-01-25T00:00:00.000Z' WHERE (memberId = '10071') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-11T00:00:00.000Z', deathRequest = '2023-01-25T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '10071');
+--
+UPDATE user SET deathRequest = '2023-04-18T00:00:00.000Z' WHERE (memberId = '10225') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-03-11T00:00:00.000Z', deathRequest = '2023-04-18T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '10225');
+--
+UPDATE user SET deathRequest = '2023-02-24T00:00:00.000Z' WHERE (memberId = '10331') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-02-01T00:00:00.000Z', deathRequest = '2023-02-24T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '10331');
+--
+UPDATE user SET deathRequest = '2023-03-20T00:00:00.000Z' WHERE (memberId = '10523') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-03-06T00:00:00.000Z', deathRequest = '2023-03-20T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '10523');
+--
+UPDATE user SET deathRequest = '2023-04-19T00:00:00.000Z' WHERE (memberId = '11055') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-03-30T00:00:00.000Z', deathRequest = '2023-04-19T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '11055');
+--
+UPDATE user SET deathRequest = '2023-01-30T00:00:00.000Z' WHERE (memberId = '11691') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2022-12-27T00:00:00.000Z', deathRequest = '2023-01-30T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '11691');
+--
+UPDATE user SET deathRequest = '2023-04-01T00:00:00.000Z' WHERE (memberId = '11754') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-03-17T00:00:00.000Z', deathRequest = '2023-04-01T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '11754');
+--
+UPDATE user SET deathRequest = '2023-03-30T00:00:00.000Z' WHERE (memberId = '12184') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-03-11T00:00:00.000Z', deathRequest = '2023-03-30T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '12184');
+--
+UPDATE user SET deathRequest = '2023-02-09T00:00:00.000Z' WHERE (memberId = '12360') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-26T00:00:00.000Z', deathRequest = '2023-02-09T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '12360');
+--
+UPDATE user SET deathRequest = '2023-02-01T00:00:00.000Z' WHERE (memberId = '12422') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-02-20T00:00:00.000Z', deathRequest = '2023-02-01T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '12422');
+--
+UPDATE user SET deathRequest = '2023-02-14T00:00:00.000Z' WHERE (memberId = '12469') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-19T00:00:00.000Z', deathRequest = '2023-02-14T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '12469');
+--
+UPDATE user SET deathRequest = '2023-04-19T00:00:00.000Z' WHERE (memberId = '12604') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-03-01T00:00:00.000Z', deathRequest = '2023-04-19T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '12604');
+--
+UPDATE user SET deathRequest = '2023-01-12T00:00:00.000Z' WHERE (memberId = '12950') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-06T00:00:00.000Z', deathRequest = '2023-01-12T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '12950');
+--
+UPDATE user SET deathRequest = '2023-03-09T00:00:00.000Z' WHERE (memberId = '13037') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-02-23T00:00:00.000Z', deathRequest = '2023-03-09T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '13037');
+--
+UPDATE user SET deathRequest = '2023-03-07T00:00:00.000Z' WHERE (memberId = '13198') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-02-27T00:00:00.000Z', deathRequest = '2023-03-07T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '13198');
+--
+UPDATE user SET deathRequest = '2023-01-30T00:00:00.000Z' WHERE (memberId = '13203') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-16T00:00:00.000Z', deathRequest = '2023-01-30T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '13203');
+--
+UPDATE user SET deathRequest = '2023-01-10T00:00:00.000Z' WHERE (memberId = '13242') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2022-12-03T00:00:00.000Z', deathRequest = '2023-01-10T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '13242');
+--
+UPDATE user SET deathRequest = '2023-01-30T00:00:00.000Z' WHERE (memberId = '13352') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-20T00:00:00.000Z', deathRequest = '2023-01-30T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '13352');
+--
+UPDATE user SET deathRequest = '2023-04-20T00:00:00.000Z' WHERE (memberId = '13435') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-04-10T00:00:00.000Z', deathRequest = '2023-04-20T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '13435');
+--
+UPDATE user SET deathRequest = '2023-03-27T00:00:00.000Z' WHERE (memberId = '13735') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-03-16T00:00:00.000Z', deathRequest = '2023-03-27T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '13735');
+--
+UPDATE user SET deathRequest = '2023-01-10T00:00:00.000Z' WHERE (memberId = '13811') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2022-12-14T00:00:00.000Z', deathRequest = '2023-01-10T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '13811');
+--
+UPDATE user SET deathRequest = '2023-02-15T00:00:00.000Z' WHERE (memberId = '14043') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-30T00:00:00.000Z', deathRequest = '2023-02-15T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '14043');
+--
+UPDATE user SET deathRequest = '2023-03-08T00:00:00.000Z' WHERE (memberId = '14052') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-03T00:00:00.000Z', deathRequest = '2023-03-08T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '14052');
+--
+UPDATE user SET deathRequest = '2023-04-18T00:00:00.000Z' WHERE (memberId = '14057') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-03-13T00:00:00.000Z', deathRequest = '2023-04-18T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '14057');
+--
+UPDATE user SET deathRequest = '2023-02-15T00:00:00.000Z' WHERE (memberId = '14408') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-09T00:00:00.000Z', deathRequest = '2023-02-15T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '14408');
+--
+UPDATE user SET deathRequest = '2023-04-18T00:00:00.000Z' WHERE (memberId = '14577') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-03-23T00:00:00.000Z', deathRequest = '2023-04-18T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '14577');
+--
+UPDATE user SET deathRequest = '2023-01-10T00:00:00.000Z' WHERE (memberId = '14646') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2022-12-31T00:00:00.000Z', deathRequest = '2023-01-10T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '14646');
+--
+UPDATE user SET deathRequest = '2023-02-28T00:00:00.000Z' WHERE (memberId = '14851') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-02-22T00:00:00.000Z', deathRequest = '2023-02-28T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '14851');
+--
+UPDATE user SET deathRequest = '2023-02-15T00:00:00.000Z' WHERE (memberId = '14872') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-02-23T00:00:00.000Z', deathRequest = '2023-02-15T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '14872');
+--
+UPDATE user SET deathRequest = '2023-04-10T00:00:00.000Z' WHERE (memberId = '15126') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-03-25T00:00:00.000Z', deathRequest = '2023-04-10T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '15126');
+--
+UPDATE user SET deathRequest = '2023-01-30T00:00:00.000Z' WHERE (memberId = '15225') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-09T00:00:00.000Z', deathRequest = '2023-01-30T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '15225');
+--
+UPDATE user SET deathRequest = '2023-01-10T00:00:00.000Z' WHERE (memberId = '15656') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2022-12-15T00:00:00.000Z', deathRequest = '2023-01-10T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '15656');
+--
+UPDATE user SET deathRequest = '2023-03-13T00:00:00.000Z' WHERE (memberId = '16095') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-03-01T00:00:00.000Z', deathRequest = '2023-03-13T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '16095');
+--
+UPDATE user SET deathRequest = '2023-02-15T00:00:00.000Z' WHERE (memberId = '16249') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-20T00:00:00.000Z', deathRequest = '2023-02-15T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '16249');
+--
+UPDATE user SET deathRequest = '2023-03-22T00:00:00.000Z' WHERE (memberId = '16672') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-03-12T00:00:00.000Z', deathRequest = '2023-03-22T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '16672');
+--
+UPDATE user SET deathRequest = '2023-01-25T00:00:00.000Z' WHERE (memberId = '16861') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-20T00:00:00.000Z', deathRequest = '2023-01-25T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '16861');
+--
+UPDATE user SET deathRequest = '2023-02-14T00:00:00.000Z' WHERE (memberId = '17018') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2022-12-31T00:00:00.000Z', deathRequest = '2023-02-14T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '17018');
+--
+UPDATE user SET deathRequest = '2023-04-20T00:00:00.000Z' WHERE (memberId = '17357') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-04-07T00:00:00.000Z', deathRequest = '2023-04-20T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '17357');
+--
+UPDATE user SET deathRequest = '2023-01-30T00:00:00.000Z' WHERE (memberId = '17457') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-18T00:00:00.000Z', deathRequest = '2023-01-30T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '17457');
+--
+UPDATE user SET deathRequest = '2023-04-19T00:00:00.000Z' WHERE (memberId = '17475') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-03-08T00:00:00.000Z', deathRequest = '2023-04-19T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '17475');
+--
+UPDATE user SET deathRequest = '2023-04-18T00:00:00.000Z' WHERE (memberId = '17642') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-03-24T00:00:00.000Z', deathRequest = '2023-04-18T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '17642');
+--
+UPDATE user SET deathRequest = '2023-01-30T00:00:00.000Z' WHERE (memberId = '17647') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-25T00:00:00.000Z', deathRequest = '2023-01-30T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '17647');
+--
+UPDATE user SET deathRequest = '2023-03-28T00:00:00.000Z' WHERE (memberId = '17772') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-03-22T00:00:00.000Z', deathRequest = '2023-03-28T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '17772');
+--
+UPDATE user SET deathRequest = '2023-01-23T00:00:00.000Z' WHERE (memberId = '17852') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-25T00:00:00.000Z', deathRequest = '2023-01-23T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '17852');
+--
+UPDATE user SET deathRequest = '2023-01-23T00:00:00.000Z' WHERE (memberId = '18010') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-10T00:00:00.000Z', deathRequest = '2023-01-23T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '18010');
+--
+UPDATE user SET deathRequest = '2023-03-15T00:00:00.000Z' WHERE (memberId = '18027') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-02-22T00:00:00.000Z', deathRequest = '2023-03-15T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '18027');
+--
+UPDATE user SET deathRequest = '2023-03-22T00:00:00.000Z' WHERE (memberId = '18181') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-03-10T00:00:00.000Z', deathRequest = '2023-03-22T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '18181');
+--
+UPDATE user SET deathRequest = '2023-03-20T00:00:00.000Z' WHERE (memberId = '18184') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-02-09T00:00:00.000Z', deathRequest = '2023-03-20T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '18184');
+--
+UPDATE user SET deathRequest = '2023-04-19T00:00:00.000Z' WHERE (memberId = '18191') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-04-04T00:00:00.000Z', deathRequest = '2023-04-19T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '18191');
+--
+UPDATE user SET deathRequest = '2023-01-23T00:00:00.000Z' WHERE (memberId = '18454') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2022-12-17T00:00:00.000Z', deathRequest = '2023-01-23T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '18454');
+--
+UPDATE user SET deathRequest = '2023-01-12T00:00:00.000Z' WHERE (memberId = '18723') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2022-12-19T00:00:00.000Z', deathRequest = '2023-01-12T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '18723');
+--
+UPDATE user SET deathRequest = '2023-01-18T00:00:00.000Z' WHERE (memberId = '18762') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-03T00:00:00.000Z', deathRequest = '2023-01-18T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '18762');
+--
+UPDATE user SET deathRequest = '2023-03-07T00:00:00.000Z' WHERE (memberId = '18787') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-02-22T00:00:00.000Z', deathRequest = '2023-03-07T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '18787');
+--
+UPDATE user SET deathRequest = '2023-03-27T00:00:00.000Z' WHERE (memberId = '18795') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-03-04T00:00:00.000Z', deathRequest = '2023-03-27T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '18795');
+--
+UPDATE user SET deathRequest = '2023-01-12T00:00:00.000Z' WHERE (memberId = '18937') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2022-12-31T00:00:00.000Z', deathRequest = '2023-01-12T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '18937');
+--
+UPDATE user SET deathRequest = '2023-01-16T00:00:00.000Z' WHERE (memberId = '19004') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-12T00:00:00.000Z', deathRequest = '2023-01-16T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '19004');
+--
+UPDATE user SET deathRequest = '2023-02-24T00:00:00.000Z' WHERE (memberId = '19051') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-02-03T00:00:00.000Z', deathRequest = '2023-02-24T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '19051');
+--
+UPDATE user SET deathRequest = '2023-01-16T00:00:00.000Z' WHERE (memberId = '19059') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-03T00:00:00.000Z', deathRequest = '2023-01-16T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '19059');
+--
+UPDATE user SET deathRequest = '2023-04-18T00:00:00.000Z' WHERE (memberId = '19267') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-03-05T00:00:00.000Z', deathRequest = '2023-04-18T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '19267');
+--
+UPDATE user SET deathRequest = '2023-03-15T00:00:00.000Z' WHERE (memberId = '19308') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2022-12-31T00:00:00.000Z', deathRequest = '2023-03-15T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '19308');
+--
+UPDATE user SET deathRequest = '2023-03-07T00:00:00.000Z' WHERE (memberId = '20468') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-02-20T00:00:00.000Z', deathRequest = '2023-03-07T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '20468');
+--
+UPDATE user SET deathRequest = '2023-02-08T00:00:00.000Z' WHERE (memberId = '20643') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-31T00:00:00.000Z', deathRequest = '2023-02-08T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '20643');
+--
+UPDATE user SET deathRequest = '2023-01-18T00:00:00.000Z' WHERE (memberId = '20648') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-06T00:00:00.000Z', deathRequest = '2023-01-18T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '20648');
+--
+UPDATE user SET deathRequest = '2023-04-19T00:00:00.000Z' WHERE (memberId = '20799') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-03-16T00:00:00.000Z', deathRequest = '2023-04-19T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '20799');
+--
+UPDATE user SET deathRequest = '2023-01-12T00:00:00.000Z' WHERE (memberId = '20964') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2022-12-21T00:00:00.000Z', deathRequest = '2023-01-12T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '20964');
+--
+UPDATE user SET deathRequest = '2023-04-10T00:00:00.000Z' WHERE (memberId = '21495') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-03-25T00:00:00.000Z', deathRequest = '2023-04-10T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '21495');
+--
+UPDATE user SET deathRequest = '2023-03-28T00:00:00.000Z' WHERE (memberId = '21700') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-03-17T00:00:00.000Z', deathRequest = '2023-03-28T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '21700');
+--
+UPDATE user SET deathRequest = '2023-03-08T00:00:00.000Z' WHERE (memberId = '22028') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-02-23T00:00:00.000Z', deathRequest = '2023-03-08T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '22028');
+--
+UPDATE user SET deathRequest = '2023-02-09T00:00:00.000Z' WHERE (memberId = '22084') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-02-05T00:00:00.000Z', deathRequest = '2023-02-09T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '22084');
+--
+UPDATE user SET deathRequest = '2023-01-30T00:00:00.000Z' WHERE (memberId = '22380') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-12T00:00:00.000Z', deathRequest = '2023-01-30T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '22380');
+--
+UPDATE user SET deathRequest = '2023-02-06T00:00:00.000Z' WHERE (memberId = '22796') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-21T00:00:00.000Z', deathRequest = '2023-02-06T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '22796');
+--
+UPDATE user SET deathRequest = '2023-03-15T00:00:00.000Z' WHERE (memberId = '22954') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-02-26T00:00:00.000Z', deathRequest = '2023-03-15T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '22954');
+--
+UPDATE user SET deathRequest = '2023-02-06T00:00:00.000Z' WHERE (memberId = '23028') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-09T00:00:00.000Z', deathRequest = '2023-02-06T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '23028');
+--
+UPDATE user SET deathRequest = '2023-01-11T00:00:00.000Z' WHERE (memberId = '23183') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2022-12-28T00:00:00.000Z', deathRequest = '2023-01-11T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '23183');
+--
+UPDATE user SET deathRequest = '2023-01-30T00:00:00.000Z' WHERE (memberId = '23219') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-16T00:00:00.000Z', deathRequest = '2023-01-30T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '23219');
+--
+UPDATE user SET deathRequest = '2023-02-08T00:00:00.000Z' WHERE (memberId = '23242') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2022-12-11T00:00:00.000Z', deathRequest = '2023-02-08T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '23242');
+--
+UPDATE user SET deathRequest = '2023-02-20T00:00:00.000Z' WHERE (memberId = '23324') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-02-03T00:00:00.000Z', deathRequest = '2023-02-20T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '23324');
+--
+UPDATE user SET deathRequest = '2023-02-08T00:00:00.000Z' WHERE (memberId = '23330') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-10T00:00:00.000Z', deathRequest = '2023-02-08T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '23330');
+--
+UPDATE user SET deathRequest = '2023-03-15T00:00:00.000Z' WHERE (memberId = '23721') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-03-08T00:00:00.000Z', deathRequest = '2023-03-15T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '23721');
+--
+UPDATE user SET deathRequest = '2023-02-02T00:00:00.000Z' WHERE (memberId = '24114') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-30T00:00:00.000Z', deathRequest = '2023-02-02T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '24114');
+--
+UPDATE user SET deathRequest = '2023-04-20T00:00:00.000Z' WHERE (memberId = '24155') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-03-15T00:00:00.000Z', deathRequest = '2023-04-20T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '24155');
+--
+UPDATE user SET deathRequest = '2023-03-08T00:00:00.000Z' WHERE (memberId = '24187') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-07T00:00:00.000Z', deathRequest = '2023-03-08T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '24187');
+--
+UPDATE user SET deathRequest = '2023-01-19T00:00:00.000Z' WHERE (memberId = '24390') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2022-12-31T00:00:00.000Z', deathRequest = '2023-01-19T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '24390');
+--
+UPDATE user SET deathRequest = '2023-02-20T00:00:00.000Z' WHERE (memberId = '24560') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-20T00:00:00.000Z', deathRequest = '2023-02-20T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '24560');
+--
+UPDATE user SET deathRequest = '2023-03-27T00:00:00.000Z' WHERE (memberId = '24991') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-03-14T00:00:00.000Z', deathRequest = '2023-03-27T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '24991');
+--
+UPDATE user SET deathRequest = '2023-02-20T00:00:00.000Z' WHERE (memberId = '25250') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-25T00:00:00.000Z', deathRequest = '2023-02-20T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '25250');
+--
+UPDATE user SET deathRequest = '2023-01-12T00:00:00.000Z' WHERE (memberId = '25334') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2022-12-21T00:00:00.000Z', deathRequest = '2023-01-12T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '25334');
+--
+UPDATE user SET deathRequest = '2023-02-24T00:00:00.000Z' WHERE (memberId = '25473') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-26T00:00:00.000Z', deathRequest = '2023-02-24T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '25473');
+--
+UPDATE user SET deathRequest = '2023-03-09T00:00:00.000Z' WHERE (memberId = '25721') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-01T00:00:00.000Z', deathRequest = '2023-03-09T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '25721');
+--
+UPDATE user SET deathRequest = '2023-01-31T00:00:00.000Z' WHERE (memberId = '25923') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-19T00:00:00.000Z', deathRequest = '2023-01-31T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '25923');
+--
+UPDATE user SET deathRequest = '2023-02-20T00:00:00.000Z' WHERE (memberId = '25999') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-02-05T00:00:00.000Z', deathRequest = '2023-02-20T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '25999');
+--
+UPDATE user SET deathRequest = '2023-02-09T00:00:00.000Z' WHERE (memberId = '26032') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2022-12-27T00:00:00.000Z', deathRequest = '2023-02-09T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '26032');
+--
+UPDATE user SET deathRequest = '2023-02-20T00:00:00.000Z' WHERE (memberId = '26228') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-02-01T00:00:00.000Z', deathRequest = '2023-02-20T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '26228');
+--
+UPDATE user SET deathRequest = '2023-03-08T00:00:00.000Z' WHERE (memberId = '26316') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-02-22T00:00:00.000Z', deathRequest = '2023-03-08T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '26316');
+--
+UPDATE user SET deathRequest = '2023-02-20T00:00:00.000Z' WHERE (memberId = '26450') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-02-06T00:00:00.000Z', deathRequest = '2023-02-20T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '26450');
+--
+UPDATE user SET deathRequest = '2023-01-31T00:00:00.000Z' WHERE (memberId = '26483') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2022-12-12T00:00:00.000Z', deathRequest = '2023-01-31T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '26483');
+--
+UPDATE user SET deathRequest = '2023-02-02T00:00:00.000Z' WHERE (memberId = '26513') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-09T00:00:00.000Z', deathRequest = '2023-02-02T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '26513');
+--
+UPDATE user SET deathRequest = '2023-03-07T00:00:00.000Z' WHERE (memberId = '26578') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-02-04T00:00:00.000Z', deathRequest = '2023-03-07T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '26578');
+--
+UPDATE user SET deathRequest = '2023-02-09T00:00:00.000Z' WHERE (memberId = '26581') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-02-02T00:00:00.000Z', deathRequest = '2023-02-09T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '26581');
+--
+UPDATE user SET deathRequest = '2023-02-10T00:00:00.000Z' WHERE (memberId = '26584') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-31T00:00:00.000Z', deathRequest = '2023-02-10T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '26584');
+--
+UPDATE user SET deathRequest = '2023-01-12T00:00:00.000Z' WHERE (memberId = '26660') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2022-12-22T00:00:00.000Z', deathRequest = '2023-01-12T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '26660');
+--
+UPDATE user SET deathRequest = '2023-01-13T00:00:00.000Z' WHERE (memberId = '26808') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2022-12-28T00:00:00.000Z', deathRequest = '2023-01-13T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '26808');
+--
+UPDATE user SET deathRequest = '2023-03-07T00:00:00.000Z' WHERE (memberId = '27162') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-02-17T00:00:00.000Z', deathRequest = '2023-03-07T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '27162');
+--
+UPDATE user SET deathRequest = '2023-01-10T00:00:00.000Z' WHERE (memberId = '27170') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2022-12-15T00:00:00.000Z', deathRequest = '2023-01-10T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '27170');
+--
+UPDATE user SET deathRequest = '2023-01-18T00:00:00.000Z' WHERE (memberId = '27184') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-08T00:00:00.000Z', deathRequest = '2023-01-18T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '27184');
+--
+UPDATE user SET deathRequest = '2023-03-27T00:00:00.000Z' WHERE (memberId = '27484') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-02-18T00:00:00.000Z', deathRequest = '2023-03-27T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '27484');
+--
+UPDATE user SET deathRequest = '2023-02-06T00:00:00.000Z' WHERE (memberId = '27869') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-28T00:00:00.000Z', deathRequest = '2023-02-06T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '27869');
+--
+UPDATE user SET deathRequest = '2023-03-27T00:00:00.000Z' WHERE (memberId = '27954') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-03-19T00:00:00.000Z', deathRequest = '2023-03-27T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '27954');
+--
+UPDATE user SET deathRequest = '2023-03-23T00:00:00.000Z' WHERE (memberId = '28442') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-03-13T00:00:00.000Z', deathRequest = '2023-03-23T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '28442');
+--
+UPDATE user SET deathRequest = '2023-02-10T00:00:00.000Z' WHERE (memberId = '28473') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-02-06T00:00:00.000Z', deathRequest = '2023-02-10T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '28473');
+--
+UPDATE user SET deathRequest = '2023-02-20T00:00:00.000Z' WHERE (memberId = '28527') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2022-09-14T00:00:00.000Z', deathRequest = '2023-02-20T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '28527');
+--
+UPDATE user SET deathRequest = '2023-01-10T00:00:00.000Z' WHERE (memberId = '28720') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2022-12-19T00:00:00.000Z', deathRequest = '2023-01-10T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '28720');
+--
+UPDATE user SET deathRequest = '2023-03-28T00:00:00.000Z' WHERE (memberId = '29015') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-03-11T00:00:00.000Z', deathRequest = '2023-03-28T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '29015');
+--
+UPDATE user SET deathRequest = '2023-03-07T00:00:00.000Z' WHERE (memberId = '29041') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-29T00:00:00.000Z', deathRequest = '2023-03-07T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '29041');
+--
+UPDATE user SET deathRequest = '2023-01-30T00:00:00.000Z' WHERE (memberId = '29079') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-14T00:00:00.000Z', deathRequest = '2023-01-30T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '29079');
+--
+UPDATE user SET deathRequest = '2023-01-10T00:00:00.000Z' WHERE (memberId = '29219') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2022-12-08T00:00:00.000Z', deathRequest = '2023-01-10T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '29219');
+--
+UPDATE user SET deathRequest = '2023-01-18T00:00:00.000Z' WHERE (memberId = '29469') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-08T00:00:00.000Z', deathRequest = '2023-01-18T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '29469');
+--
+UPDATE user SET deathRequest = '2023-03-23T00:00:00.000Z' WHERE (memberId = '30177') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-03-12T00:00:00.000Z', deathRequest = '2023-03-23T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '30177');
+--
+UPDATE user SET deathRequest = '2023-02-20T00:00:00.000Z' WHERE (memberId = '30302') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-02-08T00:00:00.000Z', deathRequest = '2023-02-20T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '30302');
+--
+UPDATE user SET deathRequest = '2023-02-20T00:00:00.000Z' WHERE (memberId = '30443') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-05T00:00:00.000Z', deathRequest = '2023-02-20T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '30443');
+--
+UPDATE user SET deathRequest = '2023-01-30T00:00:00.000Z' WHERE (memberId = '30671') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-02-08T00:00:00.000Z', deathRequest = '2023-01-30T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '30671');
+--
+UPDATE user SET deathRequest = '2023-02-10T00:00:00.000Z' WHERE (memberId = '30859') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-02-01T00:00:00.000Z', deathRequest = '2023-02-10T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '30859');
+--
+UPDATE user SET deathRequest = '2023-02-20T00:00:00.000Z' WHERE (memberId = '31146') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-02-08T00:00:00.000Z', deathRequest = '2023-02-20T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '31146');
+--
+UPDATE user SET deathRequest = '2023-03-13T00:00:00.000Z' WHERE (memberId = '31192') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-03-04T00:00:00.000Z', deathRequest = '2023-03-13T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '31192');
+--
+UPDATE user SET deathRequest = '2023-04-18T00:00:00.000Z' WHERE (memberId = '31510') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-04-06T00:00:00.000Z', deathRequest = '2023-04-18T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '31510');
+--
+UPDATE user SET deathRequest = '2023-02-14T00:00:00.000Z' WHERE (memberId = '31722') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-02-01T00:00:00.000Z', deathRequest = '2023-02-14T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '31722');
+--
+UPDATE user SET deathRequest = '2023-01-10T00:00:00.000Z' WHERE (memberId = '31797') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2022-12-25T00:00:00.000Z', deathRequest = '2023-01-10T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '31797');
+--
+UPDATE user SET deathRequest = '2023-02-14T00:00:00.000Z' WHERE (memberId = '31881') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-02-06T00:00:00.000Z', deathRequest = '2023-02-14T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '31881');
+--
+UPDATE user SET deathRequest = '2023-02-10T00:00:00.000Z' WHERE (memberId = '32069') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-02-02T00:00:00.000Z', deathRequest = '2023-02-10T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '32069');
+--
+UPDATE user SET deathRequest = '2023-01-30T00:00:00.000Z' WHERE (memberId = '32479') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-22T00:00:00.000Z', deathRequest = '2023-01-30T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '32479');
+--
+UPDATE user SET deathRequest = '2023-03-20T00:00:00.000Z' WHERE (memberId = '32539') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-03-24T00:00:00.000Z', deathRequest = '2023-03-20T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '32539');
+--
+UPDATE user SET deathRequest = '2023-04-18T00:00:00.000Z' WHERE (memberId = '33148') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-03-31T00:00:00.000Z', deathRequest = '2023-04-18T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '33148');
+--
+UPDATE user SET deathRequest = '2023-02-13T00:00:00.000Z' WHERE (memberId = '33308') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-02-01T00:00:00.000Z', deathRequest = '2023-02-13T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '33308');
+--
+UPDATE user SET deathRequest = '2023-01-26T00:00:00.000Z' WHERE (memberId = '33584') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-14T00:00:00.000Z', deathRequest = '2023-01-26T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '33584');
+--
+UPDATE user SET deathRequest = '2023-01-10T00:00:00.000Z' WHERE (memberId = '34130') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2022-12-22T00:00:00.000Z', deathRequest = '2023-01-10T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '34130');
+--
+UPDATE user SET deathRequest = '2023-03-30T00:00:00.000Z' WHERE (memberId = '34434') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-03-07T00:00:00.000Z', deathRequest = '2023-03-30T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '34434');
+--
+UPDATE user SET deathRequest = '2023-03-22T00:00:00.000Z' WHERE (memberId = '34603') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-02-23T00:00:00.000Z', deathRequest = '2023-03-22T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '34603');
+--
+UPDATE user SET deathRequest = '2023-02-15T00:00:00.000Z' WHERE (memberId = '34752') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-02-03T00:00:00.000Z', deathRequest = '2023-02-15T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '34752');
+--
+UPDATE user SET deathRequest = '2023-03-20T00:00:00.000Z' WHERE (memberId = '34826') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-02-19T00:00:00.000Z', deathRequest = '2023-03-20T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '34826');
+--
+UPDATE user SET deathRequest = '2023-01-16T00:00:00.000Z' WHERE (memberId = '34870') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-04T00:00:00.000Z', deathRequest = '2023-01-16T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '34870');
+--
+UPDATE user SET deathRequest = '2023-02-13T00:00:00.000Z' WHERE (memberId = '35396') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-18T00:00:00.000Z', deathRequest = '2023-02-13T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '35396');
+--
+UPDATE user SET deathRequest = '2023-02-15T00:00:00.000Z' WHERE (memberId = '35876') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-02-03T00:00:00.000Z', deathRequest = '2023-02-15T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '35876');
+--
+UPDATE user SET deathRequest = '2023-03-13T00:00:00.000Z' WHERE (memberId = '36093') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-03-02T00:00:00.000Z', deathRequest = '2023-03-13T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '36093');
+--
+UPDATE user SET deathRequest = '2023-02-09T00:00:00.000Z' WHERE (memberId = '36177') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-29T00:00:00.000Z', deathRequest = '2023-02-09T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '36177');
+--
+UPDATE user SET deathRequest = '2023-02-06T00:00:00.000Z' WHERE (memberId = '36919') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2022-12-17T00:00:00.000Z', deathRequest = '2023-02-06T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '36919');
+--
+UPDATE user SET deathRequest = '2023-02-20T00:00:00.000Z' WHERE (memberId = '36959') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-16T00:00:00.000Z', deathRequest = '2023-02-20T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '36959');
+--
+UPDATE user SET deathRequest = '2023-02-21T00:00:00.000Z' WHERE (memberId = '36975') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-02-12T00:00:00.000Z', deathRequest = '2023-02-21T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '36975');
+--
+UPDATE user SET deathRequest = '2023-01-19T00:00:00.000Z' WHERE (memberId = '37315') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2022-11-24T00:00:00.000Z', deathRequest = '2023-01-19T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '37315');
+--
+UPDATE user SET deathRequest = '2023-02-28T00:00:00.000Z' WHERE (memberId = '37348') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-02-12T00:00:00.000Z', deathRequest = '2023-02-28T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '37348');
+--
+UPDATE user SET deathRequest = '2023-02-08T00:00:00.000Z' WHERE (memberId = '37351') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-18T00:00:00.000Z', deathRequest = '2023-02-08T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '37351');
+--
+UPDATE user SET deathRequest = '2023-01-18T00:00:00.000Z' WHERE (memberId = '37737') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-06T00:00:00.000Z', deathRequest = '2023-01-18T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '37737');
+--
+UPDATE user SET deathRequest = '2023-03-20T00:00:00.000Z' WHERE (memberId = '37940') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-03-14T00:00:00.000Z', deathRequest = '2023-03-20T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '37940');
+--
+UPDATE user SET deathRequest = '2023-01-18T00:00:00.000Z' WHERE (memberId = '38294') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2022-12-28T00:00:00.000Z', deathRequest = '2023-01-18T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '38294');
+--
+UPDATE user SET deathRequest = '2023-02-24T00:00:00.000Z' WHERE (memberId = '38319') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-27T00:00:00.000Z', deathRequest = '2023-02-24T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '38319');
+--
+UPDATE user SET deathRequest = '2023-04-01T00:00:00.000Z' WHERE (memberId = '38523') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-03-22T00:00:00.000Z', deathRequest = '2023-04-01T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '38523');
+--
+UPDATE user SET deathRequest = '2023-02-09T00:00:00.000Z' WHERE (memberId = '38903') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-02-03T00:00:00.000Z', deathRequest = '2023-02-09T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '38903');
+--
+UPDATE user SET deathRequest = '2023-01-31T00:00:00.000Z' WHERE (memberId = '39789') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-27T00:00:00.000Z', deathRequest = '2023-01-31T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '39789');
+--
+UPDATE user SET deathRequest = '2023-01-18T00:00:00.000Z' WHERE (memberId = '40216') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-07T00:00:00.000Z', deathRequest = '2023-01-18T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '40216');
+--
+UPDATE user SET deathRequest = '2023-03-27T00:00:00.000Z' WHERE (memberId = '40276') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-03-15T00:00:00.000Z', deathRequest = '2023-03-27T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '40276');
+--
+UPDATE user SET deathRequest = '2023-03-07T00:00:00.000Z' WHERE (memberId = '40445') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-02-25T00:00:00.000Z', deathRequest = '2023-03-07T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '40445');
+--
+UPDATE user SET deathRequest = '2023-03-22T00:00:00.000Z' WHERE (memberId = '40659') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-03-15T00:00:00.000Z', deathRequest = '2023-03-22T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '40659');
+--
+UPDATE user SET deathRequest = '2023-03-27T00:00:00.000Z' WHERE (memberId = '41418') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-03-17T00:00:00.000Z', deathRequest = '2023-03-27T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '41418');
+--
+UPDATE user SET deathRequest = '2023-04-18T00:00:00.000Z' WHERE (memberId = '41497') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-04-04T00:00:00.000Z', deathRequest = '2023-04-18T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '41497');
+--
+UPDATE user SET deathRequest = '2023-02-24T00:00:00.000Z' WHERE (memberId = '41661') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-02-11T00:00:00.000Z', deathRequest = '2023-02-24T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '41661');
+--
+UPDATE user SET deathRequest = '2023-03-08T00:00:00.000Z' WHERE (memberId = '42440') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-02-04T00:00:00.000Z', deathRequest = '2023-03-08T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '42440');
+--
+UPDATE user SET deathRequest = '2023-02-20T00:00:00.000Z' WHERE (memberId = '42507') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2022-12-21T00:00:00.000Z', deathRequest = '2023-02-20T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '42507');
+--
+UPDATE user SET deathRequest = '2023-03-23T00:00:00.000Z' WHERE (memberId = '42554') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-03-07T00:00:00.000Z', deathRequest = '2023-03-23T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '42554');
+--
+UPDATE user SET deathRequest = '2023-04-18T00:00:00.000Z' WHERE (memberId = '43089') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-03-14T00:00:00.000Z', deathRequest = '2023-04-18T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '43089');
+--
+UPDATE user SET deathRequest = '2023-01-16T00:00:00.000Z' WHERE (memberId = '43465') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2021-08-02T00:00:00.000Z', deathRequest = '2023-01-16T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '43465');
+--
+UPDATE user SET deathRequest = '2023-04-19T00:00:00.000Z' WHERE (memberId = '43967') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-04-03T00:00:00.000Z', deathRequest = '2023-04-19T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '43967');
+--
+UPDATE user SET deathRequest = '2023-01-23T00:00:00.000Z' WHERE (memberId = '44003') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-01-14T00:00:00.000Z', deathRequest = '2023-01-23T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '44003');
+--
+UPDATE user SET deathRequest = '2023-04-18T00:00:00.000Z' WHERE (memberId = '44146') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2023-03-31T00:00:00.000Z', deathRequest = '2023-04-18T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '44146');
+--
+UPDATE user SET deathRequest = '2023-01-18T00:00:00.000Z' WHERE (memberId = '45619') AND id >0 ;
+UPDATE record_deceased SET deathDate = '2022-11-24T00:00:00.000Z', deathRequest = '2023-01-18T00:00:00.000Z' WHERE id > '0' AND refUserId = (SELECT uuid FROM user where memberId = '45619');
+--
